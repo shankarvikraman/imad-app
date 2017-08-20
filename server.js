@@ -15,11 +15,11 @@ app.get('/article-one', function (req, res) {
 });
 
 app.get('/article-two', function (req, res) {
-  res.send('Shankar article 22 is requested,please send the same..... ');
+  res.sendFile(path.join(__dirname, 'ui', 'article2.html'));
 });
 
 app.get('/article-three', function (req, res) {
-  res.send('Shankar article 333 is requested,please send the same..... ');
+  res.sendFile(path.join(__dirname, 'ui', 'article3.html'));
 });
 
 
