@@ -10,15 +10,15 @@ app.get('/', function (req, res) {
 });
 
 app.get('/article-one', function (req, res) {
-  res.sendFile('Shankar article 1 is requested,please send the same..... ');
+  res.send('Shankar article 1 is requested,please send the same..... ');
 });
 
 app.get('/article-two', function (req, res) {
-  res.sendFile('Shankar article 22 is requested,please send the same..... ');
+  res.send('Shankar article 22 is requested,please send the same..... ');
 });
 
 app.get('/article-three', function (req, res) {
-  res.sendFile('Shankar article 333 is requested,please send the same..... ');
+  res.send('Shankar article 333 is requested,please send the same..... ');
 });
 
 
