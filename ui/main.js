@@ -8,5 +8,5 @@ function moveRight(){
     
 };
 img.onload = function(){
-    var interval=setinterval(moveRight,10);
+    var interval=setInterval(moveRight,10);
 };
