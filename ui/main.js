@@ -11,3 +11,15 @@ function moveRight(){
 img.onload = function(){
     var interval=setInterval(moveRight,50);
 };
+
+var counter;
+var button = document.getElementById('visitor');
+
+button.onclick = function(){
+    //send the request
+    //capture the response 
+    //rendered the span
+    counter = counter +1;
+    var span = document.getElementByID('count');
+    span.innerHTML =counter.toString();
+};
