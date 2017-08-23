@@ -13,8 +13,7 @@ img.onload = function(){
 };
 
 var counter;
-var button = document.getElementById('visitor');
-
+var button = document.getElementById('Visitor');
 button.onclick = function(){
     //send the request
     //capture the response 
