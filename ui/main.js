@@ -16,7 +16,7 @@ var counter = 0 ;
 var button = document.getElementById('Visitor');
 button.onclick = function(){
     //cretae the request object
-    var request = XMLHttpRequest();
+    var request =new XMLHttpRequest();
     //capture the response 
     request.onreadystatechange = function(){
         if (request.readyState == XMLHttpRequest.DONE){
