@@ -36,7 +36,7 @@ button.onclick = function(){
 var nameInput = document.getElementById('name');
 var name = nameInput.value;
 var submit = document.getElementById('submit_btn');
-submit.onclick = function(){
+ submit.onclick = function() {
     //make a request to server and send the name
     //capture name as lsit and render
     var names = ['name1','name2','name3','name4'];
