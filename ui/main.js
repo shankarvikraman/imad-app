@@ -12,13 +12,13 @@ img.onload = function(){
     var interval=setInterval(moveRight,50);
 };
 
-var counter;
+var counter = 0 ;
 var button = document.getElementById('Visitor');
 button.onclick = function(){
     //send the request
     //capture the response 
     //rendered the span
-    counter = counter +1;
+    counter = counter + 1;
     var span = document.getElementById('count');
     span.innerHTML =counter.toString();
 };
