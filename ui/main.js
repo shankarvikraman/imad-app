@@ -19,6 +19,6 @@ button.onclick = function(){
     //capture the response 
     //rendered the span
     counter = counter +1;
-    var span = document.getElementByID('count');
+    var span = document.getElementById('count');
     span.innerHTML =counter.toString();
 };
