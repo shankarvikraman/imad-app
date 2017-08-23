@@ -1,6 +1,6 @@
 console.log('Loaded!');
 //to move the madi
-var img = document.getElementById('madi');
+var img = document.getElementById('madi1');
 var marginLeft = 0;
 function moveRight(){
     marginLeft = marginLeft + 5;
